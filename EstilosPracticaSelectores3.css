@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{
+	background: #FEF4DD;
+}
+h1{
+	text-align: center;
+}
+[data-cantidad]{
+	color:#8d6262;
+}
+[type]{
+	background: white;
+}
+textarea{
+	background: white;
+}
+[data-tipo="carne"]{
+	background: black;
+	color: white;
+}
+div{
+	margin-top: 5px;
+}
+div[class="center"]{
+	width:600px;
+	margin: 10px auto;
+}
+[class^="cent"]{
+	padding: 20px;
+	border: 5px solid #8d6262;
+}
+[class*="img"]{
+	width: 300px;
+	background-color: #8d6262;
+	display: block;
+	margin: auto;
+	border-color:white;
+}
